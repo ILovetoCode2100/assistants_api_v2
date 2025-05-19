@@ -1,0 +1,486 @@
+[
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 0,
+    "parsedStep": {
+      "action": "NAVIGATE",
+      "target": {
+        "selectors": []
+      },
+      "value": "https://rocketshop.virtuoso.qa",
+      "meta": {
+        "kind": "NAVIGATE",
+        "type": "URL",
+        "useNewTab": false
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 1,
+    "parsedStep": {
+      "action": "ASSERT_EXISTS",
+      "target": {
+        "selectors": []
+      },
+      "value": "",
+      "meta": {
+        "kind": "ASSERT_EXISTS"
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477000,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"product item\",\"elementType\":\"SPAN\",\"requireDisplayed\":true}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 2,
+    "parsedStep": {
+      "action": "CLICK",
+      "target": {
+        "selectors": []
+      },
+      "value": "",
+      "meta": {
+        "kind": "CLICK",
+        "type": "NATURAL"
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477001,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Add to Bag\",\"elementType\":\"BUTTON\",\"requireDisplayed\":true,\"actionType\":\"CLICKABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 3,
+    "parsedStep": {
+      "action": "CLICK",
+      "target": {
+        "selectors": []
+      },
+      "value": "",
+      "meta": {
+        "kind": "CLICK",
+        "type": "NATURAL"
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477002,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Shopping Bag\",\"elementType\":\"A\",\"requireDisplayed\":true,\"actionType\":\"CLICKABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 4,
+    "parsedStep": {
+      "action": "ASSERT_EXISTS",
+      "target": {
+        "selectors": []
+      },
+      "value": "",
+      "meta": {
+        "kind": "ASSERT_EXISTS"
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477003,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Shopping Bag Title\",\"elementType\":\"H1\",\"requireDisplayed\":true}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 5,
+    "parsedStep": {
+      "action": "CLICK",
+      "target": {
+        "selectors": []
+      },
+      "value": "",
+      "meta": {
+        "kind": "CLICK",
+        "type": "NATURAL"
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477004,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Go to Checkout\",\"elementType\":\"SPAN\",\"requireDisplayed\":true,\"actionType\":\"CLICKABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 6,
+    "parsedStep": {
+      "action": "WRITE",
+      "target": {
+        "selectors": []
+      },
+      "value": "John Doe",
+      "meta": {
+        "kind": "WRITE",
+        "append": false
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477005,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Full name\",\"elementType\":\"INPUT\",\"requireDisplayed\":true,\"actionType\":\"WRITABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 7,
+    "parsedStep": {
+      "action": "WRITE",
+      "target": {
+        "selectors": []
+      },
+      "value": "johndoe@example.com",
+      "meta": {
+        "kind": "WRITE",
+        "append": false
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477006,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Email\",\"elementType\":\"INPUT\",\"requireDisplayed\":true,\"actionType\":\"WRITABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 8,
+    "parsedStep": {
+      "action": "WRITE",
+      "target": {
+        "selectors": []
+      },
+      "value": "123 Elm Street",
+      "meta": {
+        "kind": "WRITE",
+        "append": false
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477007,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Address\",\"elementType\":\"INPUT\",\"requireDisplayed\":true,\"actionType\":\"WRITABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 9,
+    "parsedStep": {
+      "action": "WRITE",
+      "target": {
+        "selectors": []
+      },
+      "value": "555-1234",
+      "meta": {
+        "kind": "WRITE",
+        "append": false
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477008,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Phone numbers\",\"elementType\":\"INPUT\",\"requireDisplayed\":true,\"actionType\":\"WRITABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 10,
+    "parsedStep": {
+      "action": "WRITE",
+      "target": {
+        "selectors": []
+      },
+      "value": "90210",
+      "meta": {
+        "kind": "WRITE",
+        "append": false
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477009,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"ZIP code\",\"elementType\":\"INPUT\",\"requireDisplayed\":true,\"actionType\":\"WRITABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 11,
+    "parsedStep": {
+      "action": "WRITE",
+      "target": {
+        "selectors": []
+      },
+      "value": "4111 1111 1111 1111",
+      "meta": {
+        "kind": "WRITE",
+        "append": false
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477010,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Card number\",\"elementType\":\"INPUT\",\"requireDisplayed\":true,\"actionType\":\"WRITABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 12,
+    "parsedStep": {
+      "action": "WRITE",
+      "target": {
+        "selectors": []
+      },
+      "value": "234",
+      "meta": {
+        "kind": "WRITE",
+        "append": false
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477011,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"CVV\",\"elementType\":\"INPUT\",\"requireDisplayed\":true,\"actionType\":\"WRITABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 13,
+    "parsedStep": {
+      "action": "CLICK",
+      "target": {
+        "selectors": []
+      },
+      "value": "",
+      "meta": {
+        "kind": "CLICK",
+        "type": "NATURAL"
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477012,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Confirm and Pay\",\"elementType\":\"BUTTON\",\"requireDisplayed\":true,\"actionType\":\"CLICKABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 14,
+    "parsedStep": {
+      "action": "WAIT",
+      "target": {
+        "selectors": []
+      },
+      "value": "",
+      "meta": {
+        "kind": "WAIT",
+        "duration": 20000
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 15,
+    "parsedStep": {
+      "action": "ASSERT_EXISTS",
+      "target": {
+        "selectors": []
+      },
+      "value": "",
+      "meta": {
+        "kind": "ASSERT_EXISTS"
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477013,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Purchase Confirmed!\",\"elementType\":\"H3\",\"requireDisplayed\":true}"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "checkpointId": 1656998,
+    "stepIndex": 16,
+    "parsedStep": {
+      "action": "CLICK",
+      "target": {
+        "selectors": []
+      },
+      "value": "",
+      "meta": {
+        "kind": "CLICK",
+        "type": "NATURAL"
+      },
+      "optional": false,
+      "ignoreOutcome": false,
+      "skip": false,
+      "element": {
+        "id": 15477014,
+        "target": {
+          "kind": "TARGET",
+          "selectors": [
+            {
+              "type": "GUESS",
+              "value": "{\"clue\":\"Download Confirmation\",\"elementType\":\"BUTTON\",\"requireDisplayed\":true,\"actionType\":\"CLICKABLE\"}"
+            }
+          ]
+        }
+      }
+    }
+  }
+]
