@@ -106,18 +106,22 @@ async function convertSeleniumToVirtuoso(filePath) {
   console.log(`Created thread: ${thread.id}`);
   
   // Add a message to the thread requesting Virtuoso conversion
-  await client.beta.threads.messages.create({
-    thread_id: thread.id,
-    role: "user",
-    content: `Convert this Selenium test script to Virtuoso test steps following the Selenium to Virtuoso Converter format:\n\n\`\`\`python\n${fileContent}\n\`\`\``,
-  });
+  await client.beta.threads.messages.create(
+    thread.id,
+    {
+      role: "user",
+      content: `Convert this Selenium test script to Virtuoso test steps following the Selenium to Virtuoso Converter format:\n\n\`\`\`python\n${fileContent}\n\`\`\``,
+    }
+  );
   console.log(`Added message to thread`);
   
   // Run the assistant
-  const run = await client.beta.threads.runs.create({
-    thread_id: thread.id,
-    assistant_id: assistantId,
-  });
+  const run = await client.beta.threads.runs.create(
+    thread.id,
+    {
+      assistant_id: assistantId,
+    }
+  );
   console.log(`Started run: ${run.id}`);
   
   // Poll for the completion of the run
@@ -146,9 +150,9 @@ async function convertSeleniumToVirtuoso(filePath) {
   }
   
   // Get the assistant's response
-  const messages = await client.beta.threads.messages.list({
-    thread_id: thread.id,
-  });
+  const messages = await client.beta.threads.messages.list(
+    thread.id
+  );
   
   // Get and process the latest assistant response
   const assistantMessages = messages.data.filter(msg => msg.role === "assistant");

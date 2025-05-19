@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // Path to the Selenium test file
-const seleniumTestPath = path.resolve(__dirname, '..', 'my-assets', '_sample_tests', 'Test_Rocketshop.py');
+const seleniumTestPath = '/Users/marklovelady/Documents/GitHub/my-assets/_sample_tests/Test_Rocketshop.py';
 
 // Log the start of the test
 console.log('Starting conversion test...');
