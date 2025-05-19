@@ -1,0 +1,27 @@
+{
+  "name": "selenium-to-virtuoso-converter",
+  "version": "1.0.0",
+  "description": "Convert Selenium test scripts to Virtuoso test steps using OpenAI Assistants API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openai",
+    "assistants",
+    "api",
+    "selenium",
+    "virtuoso",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fs": "0.0.1-security",
+    "openai": "^4.28.0",
+    "path": "^0.12.7"
+  },
+  "type": "module"
+}
